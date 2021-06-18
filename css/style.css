@@ -1,0 +1,376 @@
+
+*{
+    margin:0px auto;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: none !important;
+}
+@keyframes pulse {
+    0% {
+      background-color:#8D633A;
+    }
+    100% {
+      background-color:#6d4c41;
+    }
+}
+
+.white{
+    background-color:white;
+}
+.whitetext{
+    color:white;
+}
+
+.heder{
+    background-image: url('../images/hedernovi.jpg');
+    background-size: cover;
+    max-width:100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-color:#ba9171;
+
+}
+.logo{
+    width:32%;
+    height: 72%;
+    margin-left:2%;
+    margin-top:5%;
+}
+
+a{
+    font-size: 2rem;
+
+}
+a:hover{
+    font-size: 2.5rem;
+    text-decoration: none !important;
+    background: none !important;
+}
+nav ul li a::after,nav ul li a::before{
+    content: '\b7';
+}
+nav ul li a{
+    font-size: 1.7rem;
+}
+nav ul li a:hover{
+    font-size: 2rem;
+    color:white;
+
+}
+
+.sidenav-trigger i{
+    color:white;
+    width:15%;
+}
+
+.logonav{
+    margin-top:12%;
+    margin-left:10%;
+}
+.logodole{
+    margin-left:32%;
+    margin-bottom:5%;
+    display:none;
+}
+.texthome{
+    font-size: 1.5rem;
+    margin-top:10%;
+    text-transform: uppercase;
+    color:#8f552f;
+}
+.textloc{
+    font-size:1.5rem;    color:#c51162;
+}
+.clip{
+    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
+}
+
+.card{
+    width: 18rem;
+    border:none;
+}
+footer{
+    background-color: #ba9171;
+    
+}
+.icon{
+    width:15%;
+    margin: 3.2% 5%;
+
+}
+ul li{
+    list-style-type: none;
+}
+span{
+    display: block;
+    width:100%;
+    height: 1%;
+    background-color: white;
+
+}
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size:2rem;
+}
+
+.bp{
+    font-size:1.3rem;
+    color:#926140;
+}
+.menup{
+    font-size:1rem;
+
+}
+.mt-10{
+    margin-top: 12vh;
+}
+i{
+    color:white;
+}
+p,h1,h2,h3,h4{
+    text-transform:uppercase;
+}
+.footercontact p{
+    margin:2.5% auto;
+    font-size: 1.3rem;
+}
+.footercontact i{
+    color:#c51162;
+}
+.footertext{
+    font-size:1rem;
+    letter-spacing: 0.1rem;
+}
+svg .st0{
+    fill:#c51162;
+}
+svg .st1{
+    fill:#FFFFFF;
+}
+.indexbtn:hover{
+    font-size: 1.5rem;
+    padding-bottom:12%;
+    color: #c51162;
+    
+} 
+#modal1{
+   width:90%;
+}
+.happyhour{
+    width:100%;
+    height:20%;
+    background-color:#8D633A;
+    font-size: 2.5rem;
+    /* animation: pulse 3s infinite; */
+
+    
+}
+.happyhour:hover{
+    background-color:#58310a;
+}
+.modaltext{
+    font-size: 3vh;
+    margin-top:10%;
+    padding:0% 10%;
+}
+
+.andmore{
+    font-size: 3rem;
+}
+.andmore:hover{
+    font-size: 4rem;
+    color: #c51162 !important;
+}
+.card-title{
+    font-size: 2.3rem !important;
+}
+.gallerytext{
+    font-size: 1.2rem;
+}
+.st00{fill:#FFF6EB;}
+.st11{fill:#754D25;}
+.st22{fill:#8D633A;}
+.st33{fill:#F3F3F3;}
+.st44{fill:#F0AC1E;}
+.st55{fill:#E39A25;}
+.st66{fill:none;}
+.st77{fill:#e91e63;}
+
+.path1{
+    fill:#4D6FA9;
+}
+.path2,.path4,.path5,.path6{
+    fill:#FFFFFF;
+}
+.path3{
+    fill:#C04FBD;
+}
+.path7{
+    fill:#455A64;
+}
+.path8,.path9,.path10{
+    fill:#007AAA;
+}
+
+
+
+.card{
+    width:100% !important;
+    box-shadow: none;
+}
+.text{
+    font-size:1.2rem;
+}
+.textauthor{
+    font-size:2rem;
+}
+.card img{
+    width:20rem !important;
+}
+.carousel{
+    background-color: aquamarine;
+}
+.card-body a{
+    margin-left:0%;
+  }
+.btn-outline-secondary{
+    box-shadow: none;
+}
+.material-icons{
+    color:black;
+}
+.imgborder{
+    border:5px solid #795548;
+}
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after{
+    background-color:#c51162;
+}
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    border:none;
+}
+p{
+    font-size: 2vh;
+}
+.aboutsvg{
+    width: 20%;
+    height: 50%;
+    margin-top:10%;
+ }
+.btn:hover{
+    background-color: #754D25;
+}
+tspan{
+    fill: #FFFFFF;
+    font-family: 'Arial-BoldMT';
+    font-size: 13.9819px;
+    letter-spacing:2px; 
+}
+.sidenav-overlay{display: none !important; }
+.hiddendiv{display: none !important; }
+ @media only screen and (max-width: 1200px){
+     .heder{
+         background-position-x: right;
+     }
+ }
+ @media only screen and (max-width: 1000px){
+    .logo{
+        display: none;
+    }
+    .logodole{
+        display: block;
+        margin-left:22%;
+    }
+    .modalnaslov{
+        font-size: 2rem;
+    }
+    .modaltext{
+        padding-top:20%;
+    }
+    
+ }
+ @media only screen and (max-width: 800px){
+    .heder{
+        background-position-x: top right;
+    }
+    .logodole{
+        margin-left:12%;
+    }
+    .icon{
+        width:20%;
+    }
+    .bp{
+        font-size: 1.5rem;
+    }
+    .modaltext{
+        padding-top:25%;
+    }
+    
+ }
+ @media only screen and (max-width: 600px){
+    .heder{
+        background-position: 60%
+    }
+    .logodole{
+        margin-left:10%;
+    }
+    h1,h2{
+        font-size: 2.8rem;
+    }
+    .textauthor{
+        margin:5%;
+    }
+    
+    .texthome{
+        font-size: 1rem;
+    }
+    .authorimg{
+        width:90%;
+    }
+    .modaltext{
+        padding-top:40%;
+        font-size:1.2rem;
+    }
+    .textloc{
+        font-size:1.5rem;
+    }
+ }
+ @media only screen and (max-width: 500px){
+    .heder{
+        background-position: 80%
+    }
+    .logodole{
+        margin-left:10%;
+        width:80%;
+    }
+    h1,h2{
+        font-size: 2.5rem; }
+    .socialmedia{
+        flex-wrap: wrap;
+    }
+    .modaltext{
+        padding-top:60%;
+        font-size:1.2rem;
+    }
+ }
+ @media only screen and (max-width: 360px){
+    .texthome{
+        font-size: 1.4rem;
+    }
+    .modaltext{
+        padding-top:60%;
+        font-size:1rem;
+    }
+    .textauthor{
+        font-size:1.5rem;
+    }
+   .portfolio{
+    font-size:1.7rem;
+   }
+
+ 
+ }
